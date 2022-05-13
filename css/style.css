@@ -329,6 +329,8 @@ body.height-active {
 }
 
 .projects {
+  display: flex;
+  flex-direction: column;
   color: var(--bright-white);
   background: var(--medium-purple);
 }
@@ -342,6 +344,9 @@ body.height-active {
 }
 
 .projects__nav {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
   width: 100%;
   margin-top: 1.5rem;
   padding: .5rem .75rem;
@@ -698,45 +703,6 @@ body.height-active {
   margin-top: .25rem;
 }
 
-.email {
-  display: none;
-  position: sticky;
-  bottom: 0;
-  right: 0;
-  width: 100vw;
-  height: 100vh;
-  background: var(--white);
-  box-sizing: border-box;
-}
-
-.email.active {
-  display: block;
-}
-
-.email__close-button {
-  font-size: 1.5rem;
-  position: relative;
-  top: 5%;
-  left: 90vw;
-  text-transform: uppercase;
-  border: none;
-  background: none;
-  color: var(--bright-white);
-  text-shadow: 1px 1px 1px var(--red);
-  box-sizing: border-box;
-}
-
-.contact__email {
-  position: relative;
-  top: 40.5%;
-  font-size: 1.05rem;
-  font-weight: 700;
-  text-align: center;
-  color: var(--bright-white);
-  text-shadow: 1px 1px 1px var(--very-dark-purple);
-  box-sizing: border-box;
-}
-
 .contact__text {
   color: var(--bright-white);
   line-height: normal;
@@ -802,4 +768,18 @@ body.height-active {
   width: 100vw;
   height: 65vh;
   box-sizing: border-box;
+}
+
+.header-logo__link {
+  display: inline-block;
+  width: fit-content;
+  height: fit-content;
+  position: absolute;
+  top: .5rem;
+  right: 1rem;
+}
+
+.header-logo {
+  width: 50px;
+  height: 50px;
 }
