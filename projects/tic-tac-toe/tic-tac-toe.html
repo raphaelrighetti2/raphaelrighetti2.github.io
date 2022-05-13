@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./css/tic-tac-toe-reset.css">
+  <link rel="stylesheet" href="./css/tic-tac-toe-style.css">
+  <title>Tic Tac Toe</title>
+</head>
+<body>
+  <header class="main-header">
+    <button type="button" class="main-header__button reset-button" data-js="reset-button">Reset</button>
+    <button type="button" class="main-header__button question-mark-button" data-js="question-mark-button">?</button>
+  </header>
+  <div class="game-end__background" data-js="game-end__background"></div>
+  <section class="container how-to-play" data-js="how-to-play">
+    <header class="how-to-play__header">
+      <h2 class="how-to-play__title">Como jogar?</h2>
+      <button type="button" class="how-to-play__header__button" data-js="close-button">
+        x
+      </button>
+    </header>
+    <p class="how-to-play__text">O jogo inicia sempre no turno do jogador que escolheu o marcador <strong>X</strong> para jogar. Assim que o primeiro jogador joga, automaticamente vira o turno do próximo jogador <em>(que utilizará o marcador <strong>O</strong>).</em> Daí pra frente é só um jogo da velha comum, aproveitem!</p>
+    <footer class="how-to-play__footer">
+      <ul class="how-to-play__footer__list">
+        <li class="list-item github">
+          <a class="list-link" href="https://github.com/raphaelrighetti" title="Link para o GitHub de Raphael Righetti" target="_blank">
+            <img class="logo-github" src="https://cdn-icons-png.flaticon.com/512/25/25231.png" alt="Logotipo do GitHub">
+          </a>
+        </li>
+        <li class="list-item">
+          <a class="list-link" href="https://www.linkedin.com/in/raphael-righetti-ramos/" title="Link para o LinkedIn de Raphael Righetti" target="_blank">
+            <img src="https://cdn-icons-png.flaticon.com/512/174/174857.png" alt="Logotipo do Instagram">
+          </a>
+        </li>
+        <li class="list-item">
+          <a class="list-link" href="https://www.instagram.com/raphael_righetti/" title="Link para o Instagram de Raphael Righetti" target="_blank">
+            <img src="https://cdn-icons-png.flaticon.com/512/174/174855.png" alt="Logotipo do Instagram">
+          </a>
+        </li>
+      </ul>
+    </footer>
+  </section>
+  <main class="container tic-tac-toe__body">
+    <button type="button" class="place" data-js="button" value="1">
+      <p data-js="place-1" class="place__marker"></p>
+    </button>
+    <button type="button" class="place" data-js="button" value="2">
+      <p data-js="place-2" class="place__marker"></p>
+    </button>
+    <button type="button" class="place" data-js="button" value="3">
+      <p data-js="place-3" class="place__marker"></p>
+    </button>
+    <button type="button" class="place" data-js="button" value="4">
+      <p data-js="place-4" class="place__marker"></p>
+    </button>
+    <button type="button" class="place" data-js="button" value="5">
+      <p data-js="place-5" class="place__marker"></p>
+    </button>
+    <button type="button" class="place" data-js="button" value="6">
+      <p data-js="place-6" class="place__marker"></p>
+    </button>
+    <button type="button" class="place" data-js="button" value="7">
+      <p data-js="place-7" class="place__marker"></p>
+    </button>
+    <button type="button" class="place" data-js="button" value="8">
+      <p data-js="place-8" class="place__marker"></p>
+    </button>
+    <button type="button" class="place" data-js="button" value="9">
+      <p data-js="place-9" class="place__marker"></p>
+    </button>
+  </main>
+  <section class="container game-end" data-js="game-end">
+    <h3 class="game-end__title">Fim de jogo.</h3>
+    <p class="game-end__text" data-js="game-end__text"></p>
+    <button type="button" class="play-again-button" data-js="play-again-button">Jogar Novamente</button>
+  </section>
+  <script src="./js.js"></script>
+</body>
+</html>

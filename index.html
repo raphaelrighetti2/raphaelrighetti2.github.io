@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="shortcut icon" href="./images/raphael-righetti-logo-white.png" type="image/x-icon">
+  <link rel="stylesheet" href="./css/reset.css">
+  <link rel="stylesheet" href="./css/style.css">
+  <title>Raphael Righetti</title>
+</head>
+<body>
+  <header class="container main-header">
+    <button type="button" class="hamburger-menu__button" data-js="hamburger-menu__button">
+      <span class="main-header__hamburger-menu__line-1" data-js="line-1"></span>
+      <span class="main-header__hamburger-menu__line-2" data-js="line-2"></span>
+      <span class="main-header__hamburger-menu__line-3" data-js="line-3"></span>
+    </button>
+    <nav class="main-header__nav" data-js="main-header__nav">
+      <ul class="main-header__nav-list" data-js="main-header__nav-list">
+        <li>
+          <a href="index.html" class="main-header__nav-list__link">Home</a>
+        </li>
+        <li>
+          <a href="#" class="main-header__nav-list__link">About</a>
+        </li>
+        <li>
+          <a href="#" class="main-header__nav-list__link">Contact</a>
+        </li>
+        <li>
+          <button type="button" class="my-projects__hamburger-menu__button main-header__nav-list__link" data-js="my-projects__button">
+            Projects
+          </button>
+        </li>
+        <li>
+          <a href="#" class="main-header__nav-list__link">Music</a>
+        </li>
+      </ul>
+    </nav>
+    <h1 class="main-header__title">Raphael Righetti</h1>
+    <a href="index.html" title="Link to the Home Page of Raphael Righetti's Website" class="main-header__logo-link">
+      <img src="./images/raphael-righetti-logo.svg" alt="Raphael Righetti logo" class="main-header__logo">
+    </a>
+  </header>
+  <main class="container about-me">
+    <h2 class="about-me__title">About Me</h2>
+    <div class="about-me__content">
+      <p class="about-me__text">
+        I'm a 19 years old Front-End developer, music production enthusiast, curious individual by nature and this is a project that I'm really proud to be doing, because it gives me a chance to show what I've learned in the last few months and practice everything that I'm not super confortable doing right now. :)
+      </p>
+      <img data-js="raphael-righetti__image" class="about-me__image" src="./images/eu4.jpg" alt="Me sitting in my room coding something">
+    </div>
+  </main>
+  <section class="my-projects__menu" data-js="my-projects__menu">
+    <nav class="my-projects" data-js="my-projects">
+      <ul class="my-projects__list" data-js="my-projects__list">
+        <li>
+          <a href="./projects/tic-tac-toe/tic-tac-toe.html" class="my-projects__list__link">Tic Tac Toe</a>
+        </li>
+        <li>
+          <a href="./projects/interactive-rating-component-main/rating-component.html" class="my-projects__list__link">Interactive Rating Component</a>
+        </li>
+        <li>
+          <a href="./projects/alura-store/alura-store.html" class="my-projects__list__link">Alura Store</a>
+        </li>
+        <li>
+          <a href="./projects/projeto-apeperia/apeperia.html" class="my-projects__list__link">Apeperia</a>
+        </li>
+      </ul>
+    </nav>
+  </section>
+  <section class="container projects">
+    <h2 class="projects__title">My Projects</h2>
+    <nav class="projects__nav">
+      <ul class="projects__nav-list">
+        <li class="projects__nav-list__item">
+          <div class="projects__card">
+            <img data-js="projects__card__image" src="./images/projects-screenshots/tic-tac-toe-screenshot.jpg" alt="Tic Tac Toe app screenshot" class="projects__card__image">
+            <h3 class="projects__card__title">Tic Tac Toe</h3>
+            <p class="projects__card__text">A simple Tic Tac Toe game developed by me. Made for 2 players locally, but in the future I will make an online multiplayer feature. :)</p>
+            <a href="#" class="projects__card__link" title="Link to my Tic Tac Toe project">
+              Check It Out
+            </a>
+          </div>
+        </li>
+        <li class="projects__nav-list__item">
+          <div class="projects__card">
+            <img data-js="projects__card__image" src="./images/projects-screenshots/interactive-rating-component-screenshot.jpg" alt="Interactive Rating Component screenshot" class="projects__card__image">
+            <h3 class="projects__card__title">Rating Component</h3>
+            <p class="projects__card__text">A simple interactive Rating Component coded by me. This project was a challenge I took from Frontend Mentor's Website. It has a lot of challenges, so if you're trying to improve, go <a href="https://www.frontendmentor.io/home" title="Link to Frontend Mentor's website" target="_blank">check it out!</a><br></p>
+            <a href="#" class="projects__card__link" title="Link to my Interactive Rating Component project">
+              Check It Out
+            </a>
+          </div>
+        </li>
+        <li class="projects__nav-list__item">
+          <div class="projects__card">
+            <img data-js="projects__card__image" src="./images/projects-screenshots/alura-store-screenshot.jpg" alt="Alura Store website screenshot" class="projects__card__image">
+            <h3 class="projects__card__title">Alura Store</h3>
+            <p class="projects__card__text">A website I developed in an Alura's course, where the main focus was to understand the CSS Grid, wich I'm using right now to do these little project cards.</p>
+            <a href="#" class="projects__card__link" title="Link to my Alura Store project">
+              Check It Out
+            </a>
+          </div>
+        </li>
+        <li class="projects__nav-list__item">
+          <div class="projects__card">
+            <img data-js="projects__card__image" src="./images/projects-screenshots/apeperia-screenshot.jpg" alt="Apeperia website screenshot" class="projects__card__image">
+            <h3 class="projects__card__title">Apeperia</h3>
+            <p class="projects__card__text">A website I developed in an Alura's course, where the main focus was to understand the mobile-first concept, wich I am using in this website right now.</p>
+            <a href="#" class="projects__card__link" title="Link to my Tic Tac Toe project">
+              Check It Out
+            </a>
+          </div>
+        </li> -->
+      </ul>
+    </nav>
+  </section>
+  <section class="container music">
+    <h2 class="music__title">Music</h2>
+    <ul class="music__list">
+      <li class="music__list__item">
+        <h3 class="music__list__title">I Love You, I'm a Mess</h3>
+        <div class="audio-player__background">
+          <div class="audio-player">
+            <div class="audio-player__player">
+              <button class="audio-player__play-stop-button" data-js="audio-player__play-stop-button">
+                <img src="./images/audio-player/play-button.png" alt="Play and Stop button" class="audio-player__play-stop-button__image" data-js="audio-player__play-stop-button__image">        
+              </button>
+              <audio data-js="song" src="./songs/i love you i'm a mess.mp3" preload="metadata"></audio>
+              <span class="song-time current" data-js="song__current-time"></span>
+              <input class="song-time__range" data-js="song-time__range" type="range" readonly="true" max="100" value="0">
+              <span class="song-time lasting" data-js="song__lasting-time"></span>
+            </div>
+            <div class="audio-player__volume">
+              <input class="song-volume__range" data-js="song-volume__range" type="range" readonly="true" max="10" value="0">
+              <button class="volume-button" data-js="volume-button">
+                <img src="./images/audio-player/sound-on.png" alt="Volume button" class="volume-button__image" data-js="volume-button__image">
+              </button>
+            </div>
+          </div>
+          <a href="https://open.spotify.com/track/2C4szjUIcJHpBkdrfFoLcM?si=f9bbbf14ff714fe9" target="_blank" title="Link to I Love You, I'm a Mess by rapha on Spotify" class="music__list__link">Listen Now</a>
+        </div>
+      </li>
+      <li class="music__list__item">
+        <h3 class="music__list__title">Tudo Tem Seu Tempo</h3>
+        <div class="audio-player__background">
+          <div class="audio-player">
+            <div class="audio-player__player">
+              <button class="audio-player__play-stop-button" data-js="audio-player__play-stop-button">
+                <img src="./images/audio-player/play-button.png" alt="Play and Stop button" class="audio-player__play-stop-button__image" data-js="audio-player__play-stop-button__image">        
+              </button>
+              <audio data-js="song" src="./songs/tudo tem seu tempo.mp3" preload="metadata"></audio>
+              <span class="song-time current" data-js="song__current-time"></span>
+              <input class="song-time__range" data-js="song-time__range" type="range" readonly="true" max="100" value="0">
+              <span class="song-time lasting" data-js="song__lasting-time"></span>
+            </div>
+            <div class="audio-player__volume">
+              <input class="song-volume__range" data-js="song-volume__range" type="range" readonly="true" max="10" value="0">
+              <button class="volume-button" data-js="volume-button">
+                <img src="./images/audio-player/sound-on.png" alt="Volume button" class="volume-button__image" data-js="volume-button__image">
+              </button>
+            </div>
+          </div>
+          <a href="https://open.spotify.com/track/05rbhAYgzIPRyZXOFIUfLN?si=ca60870f94094946" target="_blank" title="Link to Tudo Tem Seu Tempo by Raphael Righetti on Spotify" class="music__list__link">Listen Now</a>
+        </div>
+      </li>
+    </ul>
+    <footer class="music__footer">
+      <h2 class="music__footer__title">rapha</h2>
+      <p class="music__footer__text">I'm <strong>rapha</strong>.<br>Yep, that's me.<br>That's how <em>(almost)</em> everybody calls me, so I thought: "why not make it my artistic name?". It's short, easy to remember, and it's a very kind way to say my name. And I'm not the type of guy to use my full name <em><strong>(Raphael Righetti)</strong></em> as an artistic name, it sounds way too serious for me. But, yeah, I love making music and I can't even imagine living a life without doing it. Hope you all like my songs! :)</p>
+      <a href="https://open.spotify.com/artist/3FBjRRggija9tT7tuvqF9w?si=UgsRRMTuTkOOYLLZb-cCIQ" class="music__footer__link" title="Link to rapha's Spotify profile" target="_blank">Check Me Out</a>
+    </footer>
+  </section>
+  <section class="container contact">
+    <h2 class="contact__title">Contact Me</h2>
+    <nav class="contact__nav">
+      <ul class="contact__list">
+        <li class="contact__list__item">
+          <a href="https://github.com/raphaelrighetti" class="contact__list__link" title="Link to Raphael Righetti's GitHub profile" target="_blank">
+            <img src="https://cdn-icons-png.flaticon.com/512/25/25231.png" alt="GitHub Logo" class="contact__image">
+          </a>
+          <p class="contact__list__item__text">GitHub</p>
+        </li>
+        <li class="contact__list__item">
+          <a href="https://www.linkedin.com/in/raphael-righetti-ramos/" class="contact__list__link" title="Link to Raphael Righetti's LinkedIn profile" target="_blank">
+            <img src="https://cdn-icons-png.flaticon.com/512/174/174857.png" alt="LinkedIn Logo" class="contact__image">
+          </a>
+          <p class="contact__list__item__text">LinkedIn</p>
+        </li>
+        <li class="contact__list__item">
+          <a href="https://www.instagram.com/raphael_righetti/" class="contact__list__link" title="Link to Raphael Righetti's Instagram profile" target="_blank">
+            <img src="https://cdn-icons-png.flaticon.com/512/174/174855.png" alt="Instagram Logo" class="contact__image">
+          </a>
+          <p class="contact__list__item__text">Instagram</p>
+        </li>
+        <li class="contact__list__item">
+          <img src="https://cdn-icons-png.flaticon.com/512/732/732223.png" alt="OutLook Logo" class="contact__image" data-js="contact__email__image">
+          <p class="contact__list__item__text">Email</p>
+        </li>
+      </ul>
+      <p class="contact__text">
+        Those are the ways you can contact me and check my stuff out.
+      </p>
+      <p class="contact__text contact__text-shadow">
+        Thank you for checking out my website! :)
+      </p>
+    </nav>
+  </section>
+  <footer class="main-footer">
+    <p class="main-footer__text">All rights reserved.</p>
+    <p class="main-footer__text">
+      <strong>Raphael Righetti</strong> 2022&copy;
+    </p>
+  </footer>
+  <div class="email" data-js="email">
+    <button class="email__close-button" data-js="email__close-button">x</button>
+    <p class="contact__email">
+      raphaelrighettiramos@hotmail.com
+    </p>
+  </div>
+  <div class="bigger-image" data-js="bigger-image">
+    <button class="bigger-image__button" data-js="bigger-image__button">x</button>
+    <img src="" class="bigger-image__image" data-js="bigger-image__image">
+  </div>
+  <script src="./js/hamburger-menu.js"></script>
+  <script src="./js/show-bigger-picture.js"></script>
+  <script src="./js/audio-player.js"></script>
+  <script src="./js/show-email.js"></script>
+</body>
+</html>

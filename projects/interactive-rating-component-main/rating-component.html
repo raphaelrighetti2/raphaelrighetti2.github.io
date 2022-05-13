@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="stylesheet" href="./css/rating-component-reset.css">
+  <link rel="stylesheet" href="./css/rating-component-style.css">
+  <title>Frontend Mentor | Interactive rating component</title>
+  <style>
+    .attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+  </style>
+</head>
+<body>
+  <main class="container rating-component">
+    <button type="button" title="Star Icon" class="round-button star-icon"><img src="./images/icon-star.svg" alt="Star Icon"></button>
+    <h2 class="rating-component__title">How did we do?</h2>
+    <p class="rating-component__text">Please let us know how we did with your support request. All feedback is appreciated 
+    to help us improve our offering!</p>
+    <ul class="rating-options">
+      <li>
+        <button type="button" class="round-button rating-options__option" data-js="rating-options__button" value="1">1</button>
+      </li>
+      <li>
+        <button type="button" class="round-button rating-options__option" data-js="rating-options__button" value="2">2</button>
+      </li>
+      <li>
+        <button type="button" class="round-button rating-options__option" data-js="rating-options__button" value="3">3</button>
+      </li>
+      <li>
+        <button type="button" class="round-button rating-options__option" data-js="rating-options__button" value="4">4</button>
+      </li>
+      <li>
+        <button type="button" class="round-button rating-options__option" data-js="rating-options__button" value="5">5</button>
+      </li>
+    </ul>
+    <button type="button" class="submit-button" data-js="submit-button">Submit</button>
+  </main>
+  <section class="container thank-you" data-js="thank-you">
+    <div class="thank-you__illustration__div">
+      <img src="./images/illustration-thank-you.svg" alt="Giving feedback illustration" class="thank-you__illustration">
+    </div>
+    <p class="thank-you__result">
+      You selected <span data-js="user-rating-space"></span> out of 5
+    </p>
+    <p class="thank-you__message">Thank you!</p>
+    <p class="thank-you__text">
+      We appreciate you taking the time to give a rating. If you ever need more support, don't hesitate to get in touch!
+    </p>
+  </section>
+  <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="https://www.linkedin.com/in/raphael-righetti-ramos/" title="Link to Raphael Righetti's Linkedin" target="_blank">Raphael Righetti</a>.
+  </div>
+  <script src="./rating-component.js"></script>
+</body>
+</html>

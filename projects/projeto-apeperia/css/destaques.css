@@ -1,0 +1,46 @@
+.destaques {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background: var(--azul-claro);
+}
+
+.destaques__titulo {
+  font-family: var(--montserrat);
+  font-weight: 700;
+  font-size: 1.75rem;
+  color: var(--cinza-escuro);
+  text-transform: uppercase;
+  text-align: center;
+  margin: 2rem 0;
+}
+
+.destaques__painel {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+}
+
+.destaques__imagem {
+  width: 100vw;
+  max-width: 600px;
+  box-shadow: 2px 2px 3px #00000020;
+  margin-bottom: .5rem
+}
+
+.destaques__imagem-2 {
+  max-width: 582px;
+}
+
+.destaques__imagem-legenda {
+  font-weight: 400;
+  line-height: normal;
+  margin-bottom: 2rem;
+}
+
+.destaques__botao {
+  color: var(--vermelho-forte);
+  border-color: var(--vermelho-forte);
+  margin: 2rem 0;
+}
