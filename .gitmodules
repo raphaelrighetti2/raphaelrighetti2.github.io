@@ -1,0 +1,12 @@
+[submodule "alura-store"]
+	path = alura-store
+	url = git@github.com:raphaelrighetti/alura-store.git
+[submodule "tic-tac-toe"]
+	path = tic-tac-toe
+	url = git@github.com:raphaelrighetti/tic-tac-toe.git
+[submodule "interactive-rating-component"]
+	path = interactive-rating-component
+	url = git@github.com:raphaelrighetti/interactive-rating-component.git
+[submodule "projeto-apeperia"]
+	path = projeto-apeperia
+	url = git@github.com:raphaelrighetti/projeto-apeperia.git
